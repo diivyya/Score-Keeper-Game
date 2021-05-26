@@ -11,7 +11,6 @@ const reset = document.querySelector('#reset');
 form.addEventListener('change',function(e){
     e.preventDefault();
     total=this.value;
-    console.log(`${player1} ${player2} ${total}`);
 })
 
 p1.addEventListener('click',function(e){
