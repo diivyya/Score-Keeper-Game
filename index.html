@@ -13,16 +13,14 @@
             <div class="col-lg-5 mx-auto border rounded border-2 p-4">
                 <h3 class="alert alert-light border rounded">Score Keeper Game</h3>
                 <img class="img-fluid" src="https://images.unsplash.com/photo-1565971604539-abd572d9b680?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="game">
-                <h2 class="mt-2">0 to 0</h2>
+                <h2 class="mt-2"><span id="pd1">0</span> to <span id="pd2">0</span></h2>
                 <p>Use the buttons to keep score.</p>
-                <form id="form" class="mb-3">
-                <select type="submit" class="form-select" id="exampleInput" name='select'>
+                <select class="form-select mb-3" id="form" name='select'>
                     <option selected>Playing Till</option>
                     <option value="3">3</option>
                     <option value="5">5</option>
                     <option value="10">10</option>
                 </select>
-                </form>
                 <div class="btn-group btn-group-justified text-center">
                     <button type="button" id='p1'class="btn btn-info">Player 1</button>
                     <button type="button" id='p2' class="btn btn-primary">Player 2</button>
